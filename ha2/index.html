@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Θ..Θ</title>
+
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+
+  <meta property="og:title" content="haha game"/>
+  <meta property="og:site_name" content="haha game"/>
+</head>
+<body>
+  <div id='wx_logo' style='margin:0 auto;display:none;'>
+    <img src="favicon.ico" />
+  </div>
+  <div class="container">
+    <div class="heading">
+      <div class="title"><strong>蛤</strong>2.0</div>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+    </div>
+    <p class="game-intro">你需要坚持续命，以向长者获取人生的经验 <strong>ΘΘ！</strong></p>
+    <p></p>
+
+    <div class="game-control">
+      <a class="ai-button">自动续</a>
+      <a class="hint-button">提示</a>
+      <div class="hint-message"></div>
+      <a class="restart-button">从头续</a>
+    </div>
+ 
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+          <a class="keep-playing-button">Θ..Θ</a>
+          <a class="retry-button">从头续！</a>
+          <a class="clear-message-button">吼啊</a>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+
+    <p class="game-explanation">
+      <strong class="important">如何续:</strong> 用你的 <strong>方向键 </strong> 移动方块助蛤成长. 当两个方块碰到了自己的好基友, 他们就会 <strong>合♂体 ！</strong><br/>坚持续下去，会有个戴眼镜的长者 <strong>ΘΘ</strong> 传授给你人生的经验！
+    </p>
+    <hr>
+  </div>
+
+  <script src="js/MiniMax2048.js"></script>
+  <script src="js/JS_MinimaxBestMove.js"></script>
+  <script src="js/animframe_polyfill.js"></script>
+  <script src="js/keyboard_input_manager.js"></script>
+  <script src="js/html_actuator.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/tile.js"></script>
+  <script src="js/local_score_manager.js"></script>
+  <script src="js/game_manager.js"></script>
+  <script src="js/application.js"></script>
+
+</body>
+</html>
