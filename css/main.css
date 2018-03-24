@@ -1,0 +1,15 @@
+/*
+ * Copyright (c) 2018 Mogic Party
+ */
+
+#page {
+  max-width: 800px;
+  margin: auto;
+}
+.he {
+  text-align: center;
+  line-height: 100px;
+}
+.bo {
+  text-align: center;
+}
